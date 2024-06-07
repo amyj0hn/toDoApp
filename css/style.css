@@ -1,1 +1,13 @@
-/*  */
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Custom variables */
+:root{
+    --primary:  #B99976;
+    --seconday: #E5D3B3;
+    --tertiary: #664226;
+}
